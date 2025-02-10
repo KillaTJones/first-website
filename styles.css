@@ -32,6 +32,7 @@ a {
 
 .one {
     display: flex;
+    flex:auto;
     background-color: #1f2937;
     justify-content: space-between;
     align-items: flex-start;
@@ -94,8 +95,12 @@ a {
     text-align: left;
     font-size: 36px;
     font-style: italic;
-    margin: auto;
-    padding:32px 400px;
+    padding:32px 100px;
+}
+
+.quote {
+    display:flex;
+    flex:auto;
 }
 
 .author {
@@ -105,15 +110,22 @@ a {
 
 .four {
     background-color: #3882f6;
+    gap:50px;
     border-radius: 5px;
     color: white;
     font-size: 18px;
     display: flex;
+    flex: 1 1 auto;
     justify-content: space-between;
     align-items: center;
     margin: 30px auto;
     padding:16px;
-    width: 700px;
+    
+}
+
+.four-content {
+    display: flex;
+    flex-direction: column;
 }
 
 .call {
@@ -145,7 +157,9 @@ a {
 }
 
 .doggy {
-    
+    display: flex;
+    flex:auto;
+    height:auto;
+    max-width:1000px;
     max-height:200px;
-    width: 600px;
 }
