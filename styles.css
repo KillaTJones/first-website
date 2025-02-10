@@ -1,0 +1,151 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:12px;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    padding: 8px 100px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+}
+
+.one {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding:50px 100px;
+    
+}
+
+.one-content {
+    width:400px;
+    color: white;
+}
+
+.one-button {
+    background-color: #3882f6;
+    color: white;
+    border:solid #1f2937;
+    border-radius: 5px;
+    padding:4px;
+}
+
+.hero {
+    align-self: flex-start;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    font-size: 36px;
+    font-weight: 900;
+    margin:16px auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap:64px;
+}
+
+.card {
+    width:100px;
+}
+
+.three {
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    margin: auto;
+    padding:32px 400px;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
+
+.four {
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto;
+    padding:16px;
+    width: 700px;
+}
+
+.call {
+    font-size: 24px;
+}
+
+.four-button {
+    background-color: #3882f6;
+    width:100px;
+    color: white;
+    border: solid white;
+    border-radius: 5px;
+
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding:32px;
+}
+
+.puppy {
+    width:100px;
+    height: 100px;
+    border:solid blue;
+    border-radius: 25px;
+}
+
+.doggy {
+    
+    max-height:200px;
+    width: 600px;
+}
